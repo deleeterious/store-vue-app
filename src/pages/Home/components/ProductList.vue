@@ -12,7 +12,7 @@ const productList = ref<Product[]>([
 </script>
 
 <template>
-  <div>
+  <div class="grid grid-cols-3 gap-4 p-4">
     <ProductCard
       v-for="product in productList"
       :data="product"
